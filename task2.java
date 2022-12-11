@@ -1,8 +1,7 @@
 package seminar;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-import javax.swing.text.DefaultStyledDocument.ElementSpec;
 
 // Дан массив nums = [3,2,2,3] и число val = 3.
 // Если в массиве есть числа, равные заданному, нужно перенести эти элементы в конец массива.
