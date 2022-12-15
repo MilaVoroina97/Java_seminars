@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import javax.security.auth.kerberos.KerberosCredMessage;
+
 
 
 public class task1 {
@@ -20,6 +20,7 @@ public static int getInt(){
         num = getInt();
 
     }
+    iScanner.close();
     return num;
 } 
 
@@ -31,6 +32,7 @@ public static char[] getChar(){
         System.out.printf("Enter the char %d",i+1);
         ch[i] = sc.next().charAt(0);
     }
+    sc.close();
     return ch;
 }
     public static void main(String[] args) {
@@ -61,6 +63,7 @@ public static char[] getChar(){
         }else{
             System.out.println("You should enter odd num");
         }
+        sic.close();
 
 
 

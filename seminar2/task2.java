@@ -45,8 +45,8 @@ public class task2 {
                 res.append(first);
             }
             System.out.println(res);
+            sc.close();
         }
-
 
 
 
