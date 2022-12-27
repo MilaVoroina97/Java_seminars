@@ -1,6 +1,5 @@
 package seminar.seminar3;
 
-import java.security.KeyStore.Entry;
 import java.util.*;
 
 // Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
